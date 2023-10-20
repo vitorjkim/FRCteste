@@ -1,0 +1,65 @@
+:root {
+    --cor01: #F7AD45;
+    --cor02: #B60303;
+    --cor03: #7C1400;
+    --cor04: #9D9D9D;
+}
+
+body {
+    background-color: var(--cor04);
+}
+
+.navbar{
+    background-color: var(--cor03)!important;
+}
+
+.nav-link{
+    color: white;
+}
+
+.img{
+    border: 2px solid var(--cor04);
+    border-radius: 100%;
+}
+
+.navbar-brand{
+    width: 30%;
+
+    border: 2px solid var(--cor04);
+    border-radius: 100%;
+}
+
+/* card */
+
+.card{
+    background-color: var(--cor01);
+}
+
+.card-body{
+    background-color: var(--cor02);
+}
+
+.competidores {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+    margin-top: 2%;
+}
+
+/* carousel */
+
+.carousel {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/* accordion */
+
+.collapsed{
+    background-color: var(--cor02);
+}
+
+.accordion-item{
+    background-color: var(--cor01);
+}
